@@ -1,0 +1,52 @@
+.app-property-table {
+	font-size: 0.9rem;
+	width: 100%;
+	margin: 0 auto;
+}
+.app-property-table tr {
+	border-bottom: 1px solid #e5e5e5;
+}
+.app-property-table tr:hover {
+	background-color: #c0e6ff;
+}
+.app-property-table tr:first-child {
+	border-top: 1px solid #e5e5e5;
+}
+.app-property-table th{
+	background-color:#264A60;
+	padding:0.5em;
+	color: white;
+}
+
+.app-property-table td, .app-property-table th {
+	padding: 0.5em;	
+	
+}
+.app-property-table td.app-sub-header {
+	background-color: inherit;
+	font-style: italic;
+}
+.app-property-table tr:nth-of-type(2n+1) {
+	/*background-color: initial;*/
+	background-color:#f0f2f4
+}
+.app-property-table tr:nth-of-type(2n+1):hover {
+	background-color: #c0e6ff;
+}
+.app-property-table th.rowTitle {
+	width: 80%;
+}
+.app-property-table th h1{
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0;
+}
+.app-property-table th h2{
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0 0 0 1em;
+}
+.app-property-table th h3{
+	font-size: 1em;
+	padding: 0 0 0 2em;
+}
